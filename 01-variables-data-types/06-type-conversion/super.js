@@ -20,6 +20,11 @@ let amount = '99.5';
 
 
 
+// Convert Number to Boolen
+
+amount = Boolean(amount)
+
+
 
 console.log(amount, typeof amount);
 

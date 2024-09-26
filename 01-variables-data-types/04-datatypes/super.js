@@ -19,6 +19,7 @@ let myName;
 
 // Symbol 
 
+const id = Symbol('id')
 
 const output = myName;
 

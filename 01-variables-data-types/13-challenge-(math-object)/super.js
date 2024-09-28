@@ -1,23 +1,11 @@
-let x;
+const x = Math.floor(Math.random() * 50 + 1)
 
-x = Math.sqrt(9)
+const y = Math.floor(Math.random() * 50 + 1)
 
-x = Math.abs(-5);
 
-x = Math.round(4.2);
 
-x = Math.ceil(4.6);
-
-x = Math.floor(4.8);
-
-x = Math.pow(2, 3);
-
-x = Math.min(4, 5, 3);
-
-x = Math.max(4, 5, 3);
-
-x = Math.random();
-
-x =  Math.floor(Math.random() * 10 + 2)
-
-console.log(x);
+console.log('Sum', x, '+', y, '=', x + y );
+console.log('Difference', x, '-', y, '=', x - y );
+console.log('Product', x, '*', y, '=', x * y );
+console.log('Quotient', x, '/', y, '=', x / y );
+console.log('Remainder',  x, '%', y, '=', x % y);

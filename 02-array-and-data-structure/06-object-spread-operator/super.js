@@ -25,7 +25,25 @@ const todo = new Object();
  const obj3 = {...obj1, ...obj2};
  const obj4 = Object.assign({}, obj1, obj2);
 
- x = obj3;
+ const todos = [
+    {id: 1, name : 'Buy Milk'},
+    {id: 2, name : 'Pick up kids'},
+    {id: 3, name : 'Take out trash'},
+ ]
+
+ x = todos[0].name;
+
+ x = Object.keys(todo);
+
+ x = Object.keys(todo);
+
+ x = Object.values(todo)
+
+ x = Object.entries(todo);
+
+ x = todo.hasOwnProperty('name');
+
+ 
 
  console.log(x);
  

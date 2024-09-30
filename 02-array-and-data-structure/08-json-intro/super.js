@@ -1,41 +1,32 @@
-const firstName = 'john';
-const lastName = 'Doe';
-const age = 30;
+ const post = {
+    id : 1,
+    title: 'post one',
+    body: 'This is the body',
+ }
+
+//  Convert to JSON string 
+const str = JSON.stringify(post);
+
+console.log(obj);
 
 
-const person = {
-    firstName,
-    lastName,
-    age,
-}
+// Parse JSON
+const obj = JSON.parse(str);
+
+const posts = [
+    {
+    id : 1,
+    title: 'post one',
+    body: 'This is the body',
+    }, 
+    {
+    id : 2,
+    title: 'post Two',
+    body: 'This is the body',
+    },
+]
 
 
+const str2 = JSON.stringify(posts);
 
-console.log(person.age);
-
-
-
-// Destructing 
-
-
-const todo = {
-    id: '1',
-    title: 'take out trash',
-    user: {
-        name: 'john',
-    }
-}
-
-
-const {id: todoId, title, user : {name} }  = todo;
-
-console.log(id, title, user, name);
-
-
-// Destructing Arrays 
-
-const numbers = [47, 85, 36, 57, 68]
-
-const [ first, second, ...rest ] = numbers
-
-console.log(first, second, rest);
+console.log(str);

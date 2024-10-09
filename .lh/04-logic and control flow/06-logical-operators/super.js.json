@@ -1,0 +1,70 @@
+{
+    "sourceFile": "04-logic and control flow/06-logical-operators/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1728516006268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728516063272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n- \n\\ No newline at end of file\n+ log\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516072578,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n- log\n\\ No newline at end of file\n+ console.log(10>20 );\r\n+ \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516082056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n- console.log(10>20 );\r\n+ console.log(10>20 && 30 > 15 );\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516087646,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n- console.log(10>20 && 30 > 15 );\r\n+ console.log(10>20 && 30 > 15 && 40 > 30);\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516095913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,4 @@\n  console.log(10>20 && 30 > 15 && 40 > 30);\r\n+\r\n+ console.log(10 > 20 && 30 > 15 && 40 > 30);\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516101838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n- console.log(10>20 && 30 > 15 && 40 > 30);\r\n+ console.log(10>  20 && 30 > 15 && 40 > 30);\r\n \r\n  console.log(10 > 20 && 30 > 15 && 40 > 30);\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516109069,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n  console.log(10>  20 && 30 > 15 && 40 > 30);\r\n \r\n- console.log(10 > 20 && 30 > 15 && 40 > 30);\r\n+ console.log(10 > 20 || 30 > 15);\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516145294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,7 @@\n  console.log(10>  20 && 30 > 15 && 40 > 30);\r\n \r\n  console.log(10 > 20 || 30 > 15);\r\n+ \r\n+\r\n+\r\n  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516162326,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n  console.log(10 > 20 || 30 > 15);\r\n  \r\n \r\n \r\n- \n\\ No newline at end of file\n+//  && - will return firs falsy value or h elast value \r\n+\r\n+let \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728516168207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,7 @@\n \r\n \r\n //  && - will return firs falsy value or h elast value \r\n \r\n-let \n\\ No newline at end of file\n+let a;\r\n+\r\n+console.log(a);\r\n"
+                },
+                {
+                    "date": 1728516701463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,20 @@\n+ console.log(10>  20 && 30 > 15 && 40 > 30);\r\n+\r\n+ console.log(10 > 20 || 30 > 15);\r\n+ \r\n+\r\n+\r\n+//  && - will return firs falsy value or h elast value \r\n+\r\n+let a;\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+\r\n+console.log(a);\r\n+\r\n"
+                },
+                {
+                    "date": 1728516706745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n \r\n \r\n \r\n a = 10 %% 20;\r\n+a = 10 %% 20;\r\n \r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1728516783714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \r\n \r\n \r\n a = 10 && 20;\r\n-a = 10 && 20 ;\r\n+a = 10 && 20 &;\r\n a = 10 && 20;\r\n a = 10 && 20;\r\n \r\n \r\n"
+                }
+            ],
+            "date": 1728516006268,
+            "name": "Commit-0",
+            "content": " "
+        }
+    ]
+}

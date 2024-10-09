@@ -1,0 +1,62 @@
+{
+    "sourceFile": "03-functions-scope-Execution-context/11-call-stack/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1728434345027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728435222769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+First Example \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435228004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-First Example \n\\ No newline at end of file\n+First Example \r\n+// \r\n+\r\n"
+                },
+                {
+                    "date": 1728435233747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n-First Example \r\n-// \r\n+// First Example \r\n \r\n+\r\n+function first ()\r\n+\r\n"
+                },
+                {
+                    "date": 1728435239495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,8 @@\n // First Example \r\n \r\n \r\n-function first ()\r\n+function first (){\r\n+    console.log();\r\n+    \r\n+}\r\n \r\n"
+                },
+                {
+                    "date": 1728435246389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n // First Example \r\n \r\n \r\n-function first (){\r\n-    console.log();\r\n-    \r\n-}\r\n \r\n"
+                },
+                {
+                    "date": 1728435254269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,20 @@\n // First Example \r\n \r\n \r\n+function first (){\r\n+    console.log('first...');\r\n+    \r\n+}\r\n \r\n+\r\n+function second (){\r\n+    console.log('second...');\r\n+    \r\n+}\r\n+\r\n+\r\n+function first (){\r\n+    console.log('first...');\r\n+    \r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728435269585,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     \r\n }\r\n \r\n \r\n-function first (){\r\n+function third(){\r\n     console.log('first...');\r\n     \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728435287068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,8 +13,8 @@\n }\r\n \r\n \r\n function third(){\r\n-    console.log('first...');\r\n+    console.log('third..');\r\n     \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728435292542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,7 @@\n     console.log('third..');\r\n     \r\n }\r\n \r\n+\r\n+\r\n+fir\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435297674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,5 +19,7 @@\n }\r\n \r\n \r\n \r\n-fir\n\\ No newline at end of file\n+first()\r\n+first()\r\n+first()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435304852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,7 +19,7 @@\n }\r\n \r\n \r\n \r\n-first()\r\n-first()\r\n-first()\n\\ No newline at end of file\n+first();\r\n+second();\r\n+third();\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728434345026,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

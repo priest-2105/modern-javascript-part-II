@@ -1,0 +1,34 @@
+{
+    "sourceFile": "04-logic and control flow/02-else-if-statements/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1728435973524,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728435978942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const d = n\n\\ No newline at end of file\n+const d = new Date(10)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435988444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const d = new Date(10)\n\\ No newline at end of file\n+const d = new Date(10, 30, 2022, 8, 0, 0)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728436000032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n const d = new Date(10, 30, 2022, 8, 0, 0);\r\n-const hour = d.getHours\n\\ No newline at end of file\n+const hour = d.getHours()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728436175349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,34 @@\n+const d = new Date(10, 30, 2022, 8, 0, 0);\r\n+const hour = d.getHours();\r\n+\r\n+\r\n+console.log(hour);\r\n+\r\n+\r\n+if (hour < 12){\r\n+    console.log('Good morning');\r\n+}else if ( hour < 18 ) {\r\n+    console.log('Good afternoon');\r\n+}\r\n+else{\r\n+    console.log('Goodnight');\r\n+}\r\n+\r\n+// Nested if \r\n+\r\n+if (hour === 12){\r\n+    console.log('Good morning');\r\n+\r\n+        if (hour === 6){\r\n+            console.log('wale up');\r\n+            \r\n+        }\r\n+}\r\n+else if ( hour < 18 ) {\r\n+    console.log('Good afternoon');\r\n+}\r\n+else{\r\n+    console.log('Goodnight');\r\n+\r\n+    if(hour >= 20)\r\n+}\r\n"
+                }
+            ],
+            "date": 1728435973524,
+            "name": "Commit-0",
+            "content": "const d = n"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "sourceFile": "04-logic and control flow/05-truthy-falsy-value/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1728437022724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728437029081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-const email = 'text@text.com'\n\\ No newline at end of file\n+const email = 'text@text.com';\r\n+\r\n+\r\n+if (email){}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728437036169,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n const email = 'text@text.com';\r\n \r\n \r\n-if (email){}\n\\ No newline at end of file\n+if (email){\r\n+    log\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728437044709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \r\n \r\n if (email){\r\n     console.log('you passed an email');\r\n-    \r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728437256807,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,5 +30,5 @@\n \r\n \r\n // Truthy Values\r\n //  - Everything thats not falsy\r\n-//  - \n\\ No newline at end of file\n+//  - t\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728437022724,
+            "name": "Commit-0",
+            "content": "const email = 'text@text.com'"
+        }
+    ]
+}

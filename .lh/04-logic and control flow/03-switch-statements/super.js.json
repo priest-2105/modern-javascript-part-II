@@ -1,0 +1,62 @@
+{
+    "sourceFile": "04-logic and control flow/03-switch-statements/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1728436332371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728436353982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,3 @@\n const d = new Date(10, 30, 2022, 8, 0, 0);\r\n-const hour = d.getHours();\r\n+const month = d.getHours();\r\n \r\n-\r\n\\ No newline at end of file\n-console.log(hour);\n"
+                },
+                {
+                    "date": 1728436365894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,7 @@\n const d = new Date(10, 30, 2022, 8, 0, 0);\r\n-const month = d.getHours();\r\n+const month = d.getMonth();\r\n \r\n+\r\n+\r\n+switch (month)\r\n+\r\n"
+                },
+                {
+                    "date": 1728436371777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,9 @@\n const month = d.getMonth();\r\n \r\n \r\n \r\n-switch (month)\r\n+switch (month){\r\n+    case 1;\r\n+    \r\n+}\r\n \r\n"
+                },
+                {
+                    "date": 1728436382158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,8 @@\n \r\n \r\n switch (month){\r\n     case 1;\r\n+    console.log('it i sjanuray');\r\n     \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728436389183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n \r\n \r\n switch (month){\r\n     case 1;\r\n-    console.log('it i sjanuray');\r\n+    console.log('it is januray');\r\n+    break;\r\n     \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728436395290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+const d = new Date(10, 30, 2022, 8, 0, 0);\r\n+const month = d.getMonth();\r\n+\r\n+\r\n+\r\n+switch (month){\r\n+    case 1;\r\n+    console.log('it is januray');\r\n+    break;\r\n+    case 2:\r\n+        console.log();\r\n+        \r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728436407041,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,21 +6,9 @@\n switch (month){\r\n     case 1;\r\n     console.log('it is januray');\r\n     break;\r\n-    case 2:\r\n-        console.log();\r\n+    case 2:    \r\n+    console.log('it i sfabruary');\r\n         \r\n }\r\n \r\n-const d = new Date(10, 30, 2022, 8, 0, 0);\r\n-const month = d.getMonth();\r\n-\r\n-\r\n-\r\n-switch (month){\r\n-    case 1;\r\n-    console.log('it is januray');\r\n-    break;\r\n-    \r\n-}\r\n-\r\n"
+                },
+                {
+                    "date": 1728436413906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,8 @@\n     case 1;\r\n     console.log('it is januray');\r\n     break;\r\n     case 2:    \r\n-    console.log('it i sfabruary');\r\n-        \r\n+    console.log('it is february');\r\n+    case 3\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728436420091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,9 @@\n     console.log('it is januray');\r\n     break;\r\n     case 2:    \r\n     console.log('it is february');\r\n-    case 3\r\n+    case 3:\r\n+    console.log(' it is ');\r\n+    \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728436426163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n     case 2:    \r\n     console.log('it is february');\r\n     case 3:\r\n     console.log(' it is match');\r\n-    breakl\r\n+    break\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728436452692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,7 @@\n     console.log(' it is match');\r\n     break;\r\n     default:       \r\n     console.log('it i snot january february or match');\r\n-        \r\n+    \r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1728436332371,
+            "name": "Commit-0",
+            "content": "const d = new Date(10, 30, 2022, 8, 0, 0);\r\nconst hour = d.getHours();\r\n\r\n\r\nconsole.log(hour);"
+        }
+    ]
+}

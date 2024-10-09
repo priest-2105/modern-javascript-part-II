@@ -3,11 +3,159 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 37,
             "patches": [
                 {
                     "date": 1728435387649,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728435424400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+if ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435431067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-if ()\n\\ No newline at end of file\n+if (true){\r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435443307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n if (true){\r\n-\r\n+    console.log('This s true');\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435452426,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n if (true){\r\n-    console.log('This s true');\r\n-    \r\n+    console.log('This is true');\r\n+}\r\n+\r\n+\r\n+if (true){\r\n+    console.log('This is true');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435458776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n }\r\n \r\n \r\n if (true){\r\n-    console.log('This is true');\r\n-}\n\\ No newline at end of file\n+    console.log('This is Not true');\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728435482040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,5 @@\n if (true){\r\n     console.log('This is Not true');\r\n }\r\n \r\n+c\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435487349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n if (true){\r\n     console.log('This is Not true');\r\n }\r\n \r\n-c\n\\ No newline at end of file\n+confirm\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435493727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n if (true){\r\n     console.log('This is Not true');\r\n }\r\n \r\n-confirm\n\\ No newline at end of file\n+const x = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435500454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n if (true){\r\n     console.log('This is Not true');\r\n }\r\n \r\n-const x = \n\\ No newline at end of file\n+const x = 10;\r\n+const x = 10;\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435507857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,8 @@\n     console.log('This is Not true');\r\n }\r\n \r\n const x = 10;\r\n-const x = 10;\n\\ No newline at end of file\n+const y = 5;\r\n+\r\n+\r\n+if ()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435521416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,8 @@\n const x = 10;\r\n const y = 5;\r\n \r\n \r\n-if ()\n\\ No newline at end of file\n+if (x > y){\r\n+    console.log();\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435527832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const y = 5;\r\n \r\n \r\n if (x > y){\r\n-    console.log();\r\n+    console.log( `x`);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435533677,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const y = 5;\r\n \r\n \r\n if (x > y){\r\n-    console.log( `x`);\r\n+    console.log( `{x}`);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435539221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const y = 5;\r\n \r\n \r\n if (x > y){\r\n-    console.log( `{x}`);\r\n+    console.log( `${x}`);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435545641,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,7 @@\n const y = 5;\r\n \r\n \r\n if (x > y){\r\n-    console.log( `${x}`);\r\n+    console.log( `${x} is great than ${}`);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435551840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,7 +11,12 @@\n const y = 5;\r\n \r\n \r\n if (x > y){\r\n-    console.log( `${x} is great than ${}`);\r\n-    \r\n+    console.log( `${x} is great than ${y}`);\r\n+}\r\n+\r\n+\r\n+\r\n+if (x > y){\r\n+    console.log( `${x} is great than ${y}`);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435562627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,7 @@\n }\r\n \r\n \r\n \r\n-if (x > y){\r\n-    console.log( `${x} is great than ${y}`);\r\n+if (x === y){\r\n+    console.log( `${x} is equal to ${y}`);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435569375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+if (true){\r\n+    console.log('This is true');\r\n+}\r\n+\r\n+if (true){\r\n+    console.log('This is Not true');\r\n+}\r\n+\r\n+const x = 10;\r\n+const y = 5;\r\n+\r\n+if (x > y){\r\n+    console.log( `${x} is great than ${y}`);\r\n+}\r\n+\r\n+if (x === y){\r\n+    console.log( `${x} is equal to ${y}`);\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728435575819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,26 +16,4 @@\n if (x === y){\r\n     console.log( `${x} is equal to ${y}`);\r\n }\r\n \r\n-if (true){\r\n-    console.log('This is true');\r\n-}\r\n-\r\n-\r\n-if (true){\r\n-    console.log('This is Not true');\r\n-}\r\n-\r\n-const x = 10;\r\n-const y = 5;\r\n-\r\n-\r\n-if (x > y){\r\n-    console.log( `${x} is great than ${y}`);\r\n-}\r\n-\r\n-\r\n-\r\n-if (x === y){\r\n-    console.log( `${x} is equal to ${y}`);\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435587775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n if (true){\r\n     console.log('This is true');\r\n }\r\n \r\n-if (true){\r\n+if (false){\r\n     console.log('This is Not true');\r\n }\r\n \r\n const x = 10;\r\n"
+                },
+                {
+                    "date": 1728435616299,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,8 @@\n }\r\n \r\n if (x === y){\r\n     console.log( `${x} is equal to ${y}`);\r\n+} else{\r\n+    console.log( `${x} is equal to ${y}`);\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728435642773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,7 +15,10 @@\n \r\n if (x === y){\r\n     console.log( `${x} is equal to ${y}`);\r\n } else{\r\n-    console.log( `${x} is equal to ${y}`);\r\n+    console.log( `${x} is not  equal to ${y}`);\r\n }\r\n \r\n+if (x !== y){\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435651485,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,6 +19,8 @@\n     console.log( `${x} is not  equal to ${y}`);\r\n }\r\n \r\n if (x !== y){\r\n+    const z= 20;\r\n+    console.log();\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435657971,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,7 @@\n }\r\n \r\n if (x !== y){\r\n     const z= 20;\r\n-    console.log();\r\n+    console.log(`${z} is20`);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435670775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,7 +20,6 @@\n }\r\n \r\n if (x !== y){\r\n     const z= 20;\r\n-    console.log(`${z} is20`);\r\n-    \r\n+    console.log(`${z} is 20`);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728435722716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,5 +21,6 @@\n \r\n if (x !== y){\r\n     const z= 20;\r\n     console.log(`${z} is 20`);\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728435741964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,4 +23,9 @@\n     const z= 20;\r\n     console.log(`${z} is 20`);\r\n }\r\n \r\n+// Shorthand if \r\n+\r\n+if (x > y){\r\n+    console.log( `${x} is great than ${y}`);\r\n+}\r\n"
+                },
+                {
+                    "date": 1728435747544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,5 @@\n }\r\n \r\n // Shorthand if \r\n \r\n-if (x > y){\r\n-    console.log( `${x} is great than ${y}`);\r\n-}\r\n+if (x > y)console.log( `${x} is great than ${y}`);\r\n"
+                },
+                {
+                    "date": 1728435758046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,5 @@\n }\r\n \r\n // Shorthand if \r\n \r\n-if (x > y)console.log( `${x} is great than ${y}`);\r\n+if (x > y)console.log( `${x} is great than \r\n"
+                },
+                {
+                    "date": 1728435769617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,5 @@\n }\r\n \r\n // Shorthand if \r\n \r\n-if (x > y)console.log( `${x} is great than \r\n+if (x > y)console.log( `${x} is great than ${y}`)\r\n"
+                },
+                {
+                    "date": 1728435777274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,8 @@\n }\r\n \r\n // Shorthand if \r\n \r\n-if (x > y)console.log( `${x} is great than ${y}`)\r\n+if (x > y) console.log( `${x} is great than ${y}`)\r\n+else if (x > y){\r\n+    console.log( `${x} is great than ${y}`);\r\n+}\r\n"
+                },
+                {
+                    "date": 1728435787294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,7 +26,5 @@\n \r\n // Shorthand if \r\n \r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n-else if (x > y){\r\n-    console.log( `${x} is great than ${y}`);\r\n-}\r\n+else if (x > y) console.log( `);\r\n"
+                },
+                {
+                    "date": 1728435795119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,5 @@\n \r\n // Shorthand if \r\n \r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n-else if (x > y) console.log( `);\r\n+else if (x > y) console.log(`This is False``);\r\n"
+                },
+                {
+                    "date": 1728435802561,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,5 +26,6 @@\n \r\n // Shorthand if \r\n \r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n-else if (x > y) console.log(`This is False``);\r\n+\r\n+    else if (x > y) console.log(`This is False`);\r\n"
+                },
+                {
+                    "date": 1728435809138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,6 +26,7 @@\n \r\n // Shorthand if \r\n \r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n-\r\n-    else if (x > y) console.log(`This is False`);\r\n+    console.log();\r\n+    \r\n+else if (x > y) console.log(`This is False`);\r\n"
+                },
+                {
+                    "date": 1728435814430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,7 +26,6 @@\n \r\n // Shorthand if \r\n \r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n-    console.log();\r\n-    \r\n+    console.log('This is true');\r\n else if (x > y) console.log(`This is False`);\r\n"
+                },
+                {
+                    "date": 1728435819515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,8 +24,8 @@\n     console.log(`${z} is 20`);\r\n }\r\n \r\n // Shorthand if \r\n-\r\n+,\r\n if (x > y) console.log( `${x} is great than ${y}`)\r\n     console.log('This is true');\r\n else if (x > y) console.log(`This is False`);\r\n"
                 }
             ],
             "date": 1728435387649,

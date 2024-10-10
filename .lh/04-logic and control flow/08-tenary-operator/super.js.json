@@ -1,0 +1,178 @@
+{
+    "sourceFile": "04-logic and control flow/08-tenary-operator/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 40,
+            "patches": [
+                {
+                    "date": 1728517540602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728517550834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n const age = 13\r\n \r\n \r\n+// using an if statement \r\n+\r\n"
+                },
+                {
+                    "date": 1728517556712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,4 +2,5 @@\n \r\n \r\n // using an if statement \r\n \r\n+if ( age ?)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517562651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,8 @@\n \r\n \r\n // using an if statement \r\n \r\n-if ( age ?)\n\\ No newline at end of file\n+if ( age >=18){\r\n+    console.log();\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517574944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n \r\n // using an if statement \r\n \r\n if ( age >=18){\r\n-    console.log();\r\n-    \r\n+    console.log('you can vote');\r\n+}else{\r\n+    'you can not vote'\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517581427,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \r\n if ( age >=18){\r\n     console.log('you can vote');\r\n }else{\r\n-    'you can not vote'\r\n-}\n\\ No newline at end of file\n+ \r\n+    }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517587951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,9 @@\n \r\n if ( age >=18){\r\n     console.log('you can vote');\r\n }else{\r\n- \r\n-    }\n\\ No newline at end of file\n+    console.log('you can not vote');\r\n+    }\r\n+\r\n+\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517595374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,6 @@\n     console.log('you can not vote');\r\n     }\r\n \r\n \r\n+    // Using a Tenary Operator\r\n     \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517615932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,6 +9,7 @@\n     console.log('you can not vote');\r\n     }\r\n \r\n \r\n-    // Using a Tenary Operator\r\n-    \n\\ No newline at end of file\n+// Using a Tenary Operator\r\n+\r\n+a\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517621327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n \r\n \r\n // Using a Tenary Operator\r\n \r\n-a\n\\ No newline at end of file\n+age >= 18 \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517626523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n \r\n \r\n // Using a Tenary Operator\r\n \r\n-age >= 18 \n\\ No newline at end of file\n+age >= 18 ? console.log('');\r\n"
+                },
+                {
+                    "date": 1728517633546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n \r\n \r\n // Using a Tenary Operator\r\n \r\n-age >= 18 ? console.log('');\r\n+age >= 18 ? console.log('you can vote'); : ''\r\n"
+                },
+                {
+                    "date": 1728517641999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,6 @@\n \r\n \r\n // Using a Tenary Operator\r\n \r\n-age >= 18 ? console.log('you can vote'); : ''\r\n+age >= 18 ? console.log('you can vote'); : console.log('you can not vote');\r\n+\r\n"
+                },
+                {
+                    "date": 1728517657145,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-const age = 13\r\n+const age = 13;\r\n \r\n \r\n // using an if statement \r\n \r\n@@ -11,6 +11,6 @@\n \r\n \r\n // Using a Tenary Operator\r\n \r\n-age >= 18 ? console.log('you can vote'); : console.log('you can not vote');\r\n+age >= 18 ? console.log('you can vote') : console.log('you can not vote');\r\n \r\n"
+                },
+                {
+                    "date": 1728517681520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,4 +13,9 @@\n // Using a Tenary Operator\r\n \r\n age >= 18 ? console.log('you can vote') : console.log('you can not vote');\r\n \r\n+\r\n+\r\n+// Assigning a condiational value to a variable\r\n+\r\n+const canVote = t\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517691644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,6 @@\n \r\n \r\n // Assigning a condiational value to a variable\r\n \r\n-const canVote = t\n\\ No newline at end of file\n+const canVote = true;\r\n+\r\n"
+                },
+                {
+                    "date": 1728517698513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,6 @@\n \r\n \r\n // Assigning a condiational value to a variable\r\n \r\n-const canVote = true;\r\n+const canVote = age \r\n \r\n"
+                },
+                {
+                    "date": 1728517709667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,8 @@\n \r\n \r\n // Assigning a condiational value to a variable\r\n \r\n-const canVote = age \r\n+const canVote = age >= 18 ? true : false;\r\n \r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1728517766907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,8 @@\n \r\n // Assigning a condiational value to a variable\r\n \r\n const canVote = age >= 18 ? true : false;\r\n+const canVote = age >= 18 ? true : false;\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1728517781893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,8 @@\n \r\n // Assigning a condiational value to a variable\r\n \r\n const canVote = age >= 18 ? true : false;\r\n-const canVote = age >= 18 ? true : false;\r\n+const canVote2 = age >= 18 ? 'You can Vote' : false;\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1728517793415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,11 @@\n \r\n // Assigning a condiational value to a variable\r\n \r\n const canVote = age >= 18 ? true : false;\r\n-const canVote2 = age >= 18 ? 'You can Vote' : false;\r\n+const canVote2 = age >= 18 ? 'You can Vote' : 'You cannot Vote';\r\n \r\n \r\n+console.log(c);\r\n \r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1728517817149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,22 @@\n const canVote = age >= 18 ? true : false;\r\n const canVote2 = age >= 18 ? 'You can Vote' : 'You cannot Vote';\r\n \r\n \r\n-console.log(c);\r\n+console.log(canVote);\r\n+console.log(canVote2);\r\n \r\n \r\n \r\n+// <Muiltuple statements\r\n+\r\n+\r\n+const auth = true;\r\n+\r\n+let redirect\r\n+\r\n+if (auth) {\r\n+    redirect = '/dashboard';\r\n+} else {\r\n+    redirect = '/login';\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728517825624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,7 +36,7 @@\n \r\n if (auth) {\r\n     redirect = '/dashboard';\r\n } else {\r\n-    redirect = '/login';\r\n+    alert\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728517835939,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,7 +36,7 @@\n \r\n if (auth) {\r\n     redirect = '/dashboard';\r\n } else {\r\n-    alert\r\n+    alert('access denied')\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728517846501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,43 @@\n+const age = 13;\r\n+\r\n+\r\n+// using an if statement \r\n+\r\n+if ( age >=18){\r\n+    console.log('you can vote');\r\n+}else{\r\n+    console.log('you can not vote');\r\n+    }\r\n+\r\n+\r\n+// Using a Tenary Operator\r\n+\r\n+age >= 18 ? console.log('you can vote') : console.log('you can not vote');\r\n+\r\n+\r\n+\r\n+// Assigning a condiational value to a variable\r\n+\r\n+const canVote = age >= 18 ? true : false;\r\n+const canVote2 = age >= 18 ? 'You can Vote' : 'You cannot Vote';\r\n+\r\n+\r\n+console.log(canVote);\r\n+console.log(canVote2);\r\n+\r\n+\r\n+\r\n+// <Muiltuple statements\r\n+\r\n+\r\n+const auth = true;\r\n+\r\n+let redirect\r\n+\r\n+if (auth) {\r\n+    alert('welcome to the dashboard')\r\n+    redirect = '/dashboard';\r\n+} else {\r\n+    alert('access denied')\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1728517852675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,52 +34,10 @@\n \r\n let redirect\r\n \r\n if (auth) {\r\n-    alert('welcome to the dashboard')\r\n+    alert('welcome to the dashboard');\r\n     redirect = '/dashboard';\r\n } else {\r\n-    alert('access denied')\r\n+    alert('access denied');\r\n }\r\n \r\n-const age = 13;\r\n-\r\n-\r\n-// using an if statement \r\n-\r\n-if ( age >=18){\r\n-    console.log('you can vote');\r\n-}else{\r\n-    console.log('you can not vote');\r\n-    }\r\n-\r\n-\r\n-// Using a Tenary Operator\r\n-\r\n-age >= 18 ? console.log('you can vote') : console.log('you can not vote');\r\n-\r\n-\r\n-\r\n-// Assigning a condiational value to a variable\r\n-\r\n-const canVote = age >= 18 ? true : false;\r\n-const canVote2 = age >= 18 ? 'You can Vote' : 'You cannot Vote';\r\n-\r\n-\r\n-console.log(canVote);\r\n-console.log(canVote2);\r\n-\r\n-\r\n-\r\n-// <Muiltuple statements\r\n-\r\n-\r\n-const auth = true;\r\n-\r\n-let redirect\r\n-\r\n-if (auth) {\r\n-    redirect = '/dashboard';\r\n-} else {\r\n-    alert('access denied')\r\n-}\r\n-\r\n"
+                },
+                {
+                    "date": 1728517861451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,7 @@\n     alert('welcome to the dashboard');\r\n     redirect = '/dashboard';\r\n } else {\r\n     alert('access denied');\r\n+    redirect = '/login';\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1728517867114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,4 +41,8 @@\n     alert('access denied');\r\n     redirect = '/login';\r\n }\r\n \r\n+\r\n+\r\n+const rdirect = \r\n+\r\n"
+                },
+                {
+                    "date": 1728517874469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,5 @@\n }\r\n \r\n \r\n \r\n-const rdirect = \r\n-\r\n+const redirect = auth ? \r\n"
+                },
+                {
+                    "date": 1728517886320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,5 +43,5 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? \r\n+const redirect = auth ? () : ()\r\n"
+                },
+                {
+                    "date": 1728517891767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,5 +43,5 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? () : ()\r\n+const redirect = auth ? ( alert()) : ()\r\n"
+                },
+                {
+                    "date": 1728517897261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,5 +43,5 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? ( alert()) : ()\r\n+const redirect = auth ? ( alert('wecome to the dashboard ')) : ()\r\n"
+                },
+                {
+                    "date": 1728517903314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,5 +43,6 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? ( alert('wecome to the dashboard ')) : ()\r\n+const redirect = auth ? ( alert('wecome to the dashboard '), console.log('');\r\n+) : ()\r\n"
+                },
+                {
+                    "date": 1728517914234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,6 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? ( alert('wecome to the dashboard '), console.log('');\r\n+const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')\r\n ) : ()\r\n"
+                },
+                {
+                    "date": 1728517919434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n \r\n \r\n \r\n const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')\r\n-) : ()\r\n+) : )\r\n"
+                },
+                {
+                    "date": 1728517926268,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,5 @@\n \r\n \r\n \r\n const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')\r\n-) : )\r\n+) : (alert('access denied'))\r\n"
+                },
+                {
+                    "date": 1728517934535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,6 +43,5 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')\r\n-) : (alert('access denied'))\r\n+const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')) : (alert('access denied'), '/login')\r\n"
+                },
+                {
+                    "date": 1728517943957,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \r\n // <Muiltuple statements\r\n \r\n \r\n-const auth = true;\r\n+// const auth = true;\r\n \r\n let redirect\r\n \r\n if (auth) {\r\n@@ -43,5 +43,5 @@\n }\r\n \r\n \r\n \r\n-const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard')) : (alert('access denied'), '/login')\r\n+const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard') : (alert('access denied'), '/login')\r\n"
+                },
+                {
+                    "date": 1728517951327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,17 +31,20 @@\n \r\n \r\n // const auth = true;\r\n \r\n-let redirect\r\n+// let redirect\r\n \r\n-if (auth) {\r\n-    alert('welcome to the dashboard');\r\n-    redirect = '/dashboard';\r\n-} else {\r\n-    alert('access denied');\r\n-    redirect = '/login';\r\n-}\r\n+// if (auth) {\r\n+//     alert('welcome to the dashboard');\r\n+//     redirect = '/dashboard';\r\n+// } else {\r\n+//     alert('access denied');\r\n+//     redirect = '/login';\r\n+// }\r\n \r\n \r\n \r\n const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard') : (alert('access denied'), '/login')\r\n+\r\n+\r\n+console.log(redirect);\r\n"
+                },
+                {
+                    "date": 1728518492142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,4 +49,5 @@\n \r\n console.log(redirect);\r\n \r\n \r\n+\r\n"
+                },
+                {
+                    "date": 1728518521271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,55 @@\n+const age = 13;\r\n+\r\n+\r\n+// using an if statement \r\n+\r\n+if ( age >=18){\r\n+    console.log('you can vote');\r\n+}else{\r\n+    console.log('you can not vote');\r\n+    }\r\n+\r\n+\r\n+// Using a Tenary Operator\r\n+\r\n+age >= 18 ? console.log('you can vote') : console.log('you can not vote');\r\n+\r\n+\r\n+\r\n+// Assigning a condiational value to a variable\r\n+\r\n+const canVote = age >= 18 ? true : false;\r\n+const canVote2 = age >= 18 ? 'You can Vote' : 'You cannot Vote';\r\n+\r\n+\r\n+console.log(canVote);\r\n+console.log(canVote2);\r\n+\r\n+\r\n+\r\n+// <Muiltuple statements\r\n+\r\n+\r\n+// const auth = true;\r\n+\r\n+// let redirect\r\n+\r\n+// if (auth) {\r\n+//     alert('welcome to the dashboard');\r\n+//     redirect = '/dashboard';\r\n+// } else {\r\n+//     alert('access denied');\r\n+//     redirect = '/login';\r\n+// }\r\n+\r\n+\r\n+\r\n+const redirect = auth ? ( alert('wecome to the dashboard '), 'dashboard') : (alert('access denied'), '/login')\r\n+\r\n+\r\n+console.log(redirect);\r\n+\r\n+\r\n+auth ? console.log('welome to th edahsboad') : null;\r\n+\r\n+auth && console.log('welcome to the dashboard');\r\n"
+                }
+            ],
+            "date": 1728517540602,
+            "name": "Commit-0",
+            "content": "const age = 13\r\n\r\n\r\n"
+        }
+    ]
+}

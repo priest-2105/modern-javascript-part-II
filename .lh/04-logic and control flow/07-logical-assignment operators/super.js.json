@@ -1,0 +1,50 @@
+{
+    "sourceFile": "04-logic and control flow/07-logical-assignment operators/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1728517171626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728517182520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+//  \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517187801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-//  \n\\ No newline at end of file\n+//  ||\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517200571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-//  ||\n\\ No newline at end of file\n+//  ||= assigns th eright side value only if the left is a falsy valuw\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517206273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,5 @@\n-//  ||= assigns th eright side value only if the left is a falsy valuw\n\\ No newline at end of file\n+//  ||= assigns th eright side value only if the left is a falsy valuw\r\n+\r\n+let a;\r\n+\r\n+if\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517214542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n //  ||= assigns th eright side value only if the left is a falsy valuw\r\n \r\n-let a;\r\n+let a = false;\r\n \r\n\\ No newline at end of file\n-if\n+if (!a){}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517219865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n //  ||= assigns th eright side value only if the left is a falsy valuw\r\n \r\n let a = false;\r\n \r\n-if (!a){}\n\\ No newline at end of file\n+if (!a){\r\n+    a = 20\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517225655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n }\r\n \r\n \r\n \r\n-// && \n\\ No newline at end of file\n+// &&\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728517237836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n }\r\n \r\n \r\n \r\n-// && \n\\ No newline at end of file\n+// &&=Assings the right side value only if th eleft is a truthy false\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728517171626,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

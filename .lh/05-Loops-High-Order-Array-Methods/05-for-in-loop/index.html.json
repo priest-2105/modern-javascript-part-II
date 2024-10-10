@@ -1,0 +1,18 @@
+{
+    "sourceFile": "05-Loops-High-Order-Array-Methods/05-for-in-loop/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1728521273192,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1728521273192,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Mordern Js || Part Two</title>\r\n</head>\r\n<body> \r\n\r\n    <h1>For In loop<h1>\r\n    \r\n    <script src=\"./super.js\"></script>\r\n\r\n</body>\r\n</html>\r\n"
+        }
+    ]
+}

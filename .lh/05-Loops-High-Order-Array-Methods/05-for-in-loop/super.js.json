@@ -1,0 +1,26 @@
+{
+    "sourceFile": "05-Loops-High-Order-Array-Methods/05-for-in-loop/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1728521289355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728521297401,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,6 @@\n const colorObj = {\r\n-    \r\n-}\n\\ No newline at end of file\n+    color1: 'red',\r\n+    color1: 'red',\r\n+    color1: 'red',\r\n+    color1: 'red',\r\n+};\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728521304526,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n const colorObj = {\r\n     color1: 'red',\r\n     color2: 'red',\r\n-    color3: 'red',\r\n+    color3: 're',\r\n     color4: 'orange',\r\n };\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728521289355,
+            "name": "Commit-0",
+            "content": "const colorObj = {\r\n    \r\n}"
+        }
+    ]
+}

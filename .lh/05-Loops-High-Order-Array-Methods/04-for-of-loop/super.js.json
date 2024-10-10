@@ -1,0 +1,42 @@
+{
+    "sourceFile": "05-Loops-High-Order-Array-Methods/04-for-of-loop/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1728520983468,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728520989555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+const items = []\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728520997017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const items = []\n\\ No newline at end of file\n+const items = ['book', table, 'chair ']\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728521004067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-const items = ['book', table, 'chair ']\n\\ No newline at end of file\n+const items = ['book', table', 'chair', 'kite']\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728521010869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-const items = ['book', table', 'chair', 'kite']\n\\ No newline at end of file\n+const items = ['book', 'table', 'chair', 'kite'];\r\n+\r\n+\r\n+for (var i = 0; i < items.length; i++)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728521018607,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n const items = ['book', 'table', 'chair', 'kite'];\r\n \r\n \r\n for (let i = 0; i < items.length; i++){\r\n-    console.log();\r\n+    console.log(i);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728521090198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n const items = ['book', 'table', 'chair', 'kite'];\r\n \r\n const users = [\r\n     {name: 'John'}\r\n-    {name: 'mike'}\r\n+    {name: 'mike'},\r\n     {name: 'John'}\r\n ]\r\n \r\n for (let item of items){\r\n"
+                }
+            ],
+            "date": 1728520983468,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

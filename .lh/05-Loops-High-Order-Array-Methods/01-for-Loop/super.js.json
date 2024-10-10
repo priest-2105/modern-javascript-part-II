@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 15,
             "patches": [
                 {
                     "date": 1728518630360,
@@ -12,6 +12,62 @@
                 {
                     "date": 1728518683910,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n- \n\\ No newline at end of file\n+ \r\n+\r\n+\r\n+//   \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519053201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,24 @@\n- \r\n+// for ([initialExpression]; [conditionExpression]; [incrementExpression])\r\n+//   statement;\r\n \r\n\\ No newline at end of file\n+// INITITAL EXPRESSION - Initializes a variable/counter\r\n+// CONDITION EXPRESSION - Condition that the loop will continue to run as long as it is met or until the condition is false\r\n+// INCREMENT EXPRESSION - Expression that will be executed after each iteration of the loop. Usually increments the variable\r\n+// STATEMENT - Code that will be executed each time the loop is run. To execute a `block` of code, use the `{}` syntax\r\n \r\n-//   \n+// for (let i = 0; i <= 10; i++) {\r\n+//   if (i === 7) {\r\n+//     console.log('7 is my lucky number');\r\n+//   } else {\r\n+//     console.log('Number ' + i);\r\n+//   }\r\n+// }\r\n+\r\n+// Nested loops\r\n+// for (let i = 1; i <= 10; i++) {\r\n+//   console.log('Number ' + i);\r\n+\r\n+//   for (let j = 1; j <= 5; j++) {\r\n+//     console.log(`${i} * ${j} = ${i * j}`);\r\n+//   }\r\n+// }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519062507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,5 +20,8 @@\n \r\n //   for (let j = 1; j <= 5; j++) {\r\n //     console.log(`${i} * ${j} = ${i * j}`);\r\n //   }\r\n-// }\n\\ No newline at end of file\n+// }\r\n+\r\n+\r\n+for (i = 0 ; )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519068058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,5 @@\n //   }\r\n // }\r\n \r\n \r\n-for (i = 0 ; )\n\\ No newline at end of file\n+for (i = 0 ; i<= 10; )\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519075138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,8 @@\n //   }\r\n // }\r\n \r\n \r\n-for (i = 0 ; i<= 10; )\n\\ No newline at end of file\n+for (i = 0 ; i<= 10; i++){\r\n+    console.log();\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519081956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,7 @@\n // }\r\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n-    console.log();\r\n+    console.log('Number' + );\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519089516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,7 @@\n // }\r\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n-    console.log('Number' + );\r\n+    console.log('Number' + i);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519095460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,7 @@\n // }\r\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n-    console.log('Number' + i);\r\n+    console.log('Number' +  i);\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519100692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,7 @@\n // }\r\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n-    console.log('Number' +  i);\r\n+    console.log('Number ' +  i );\r\n     \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519177953,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,7 +24,8 @@\n // }\r\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n+ \r\n+        if \r\n     console.log('Number ' +  i );\r\n-    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519184097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,8 @@\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n  \r\n-        if \r\n+        if ( i === 7)\r\n+            \r\n     console.log('Number ' +  i );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519190315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,8 +25,11 @@\n \r\n \r\n for (i = 0 ; i<= 10; i++){\r\n  \r\n-        if ( i === 7)\r\n+        if ( i === 7){\r\n+            console.log();\r\n             \r\n+        }\r\n+\r\n     console.log('Number ' +  i );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519197732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n \r\n for (i = 0 ; i<= 10; i++){\r\n  \r\n         if ( i === 7){\r\n-            console.log();\r\n+            console.log('7 is myluc');\r\n             \r\n         }\r\n \r\n     console.log('Number ' +  i );\r\n"
+                },
+                {
+                    "date": 1728519203954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,8 +27,8 @@\n for (i = 0 ; i<= 10; i++){\r\n  \r\n         if ( i === 7){\r\n             console.log('7 is my lucky number');\r\n-        }\r\n+        }e\r\n \r\n     console.log('Number ' +  i );\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519211938,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,4 +33,5 @@\n     }\r\n }\r\n \r\n \r\n+// \n\\ No newline at end of file\n"
                 }
             ],
             "date": 1728518630360,

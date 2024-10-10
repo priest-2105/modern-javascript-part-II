@@ -1,0 +1,42 @@
+{
+    "sourceFile": "05-Loops-High-Order-Array-Methods/02-break/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1728519915686,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728519921558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n // Break\r\n \r\n \r\n-for\n\\ No newline at end of file\n+for ( let i = 0; i <)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519932202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n // Break\r\n \r\n \r\n-for ( let i = 0; i <)\n\\ No newline at end of file\n+for ( let i = 0; i <= 20 ; i++ ) {\r\n+    if \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519945512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n // Break\r\n \r\n \r\n for ( let i = 0; i <= 20 ; i++ ) {\r\n-    if \r\n+    if (i == 15){\r\n+        console.log('...breaking');\r\n+        \r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519951540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n \r\n for ( let i = 0; i <= 20 ; i++ ) {\r\n     if (i == 15){\r\n         console.log('...breaking');\r\n-        \r\n+        break;\r\n     }\r\n+    lo\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728519960568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,5 +9,5 @@\n     console.log(i);\r\n }\r\n \r\n \r\n-for\n\\ No newline at end of file\n+for ( let i = 0; i\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1728520000840,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \r\n \r\n for ( let i = 0; i <= 20 ; i++ ) {\r\n     if (i === 15){\r\n-        console.log('...skipping');\r\n+        console.log('...skipping ');\r\n         continue;\r\n     }\r\n     console.log(i);\r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1728519915686,
+            "name": "Commit-0",
+            "content": "// Break\r\n\r\n\r\nfor"
+        }
+    ]
+}

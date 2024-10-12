@@ -1,0 +1,18 @@
+{
+    "sourceFile": "05-Loops-High-Order-Array-Methods/10-challenge/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1728803953890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1728803953890,
+            "name": "Commit-0",
+            "content": "// Chalenge 1 \r\nconst people = [\r\n    {\r\n      firstName: 'John',\r\n      lastName: 'Doe',\r\n      email: 'john@gmail.com',\r\n      phone: '111-111-1111',\r\n      age: 30,\r\n    },\r\n    {\r\n      firstName: 'Jane',\r\n      lastName: 'Poe',\r\n      email: 'jane@gmail.com',\r\n      phone: '222-222-2222',\r\n      age: 25,\r\n    },\r\n    {\r\n      firstName: 'Bob',\r\n      lastName: 'Foe',\r\n      email: 'bob@gmail.com',\r\n      phone: '333-333-3333',\r\n      age: 45,\r\n    },\r\n    {\r\n      firstName: 'Sara',\r\n      lastName: 'Soe',\r\n      email: 'Sara@gmail.com',\r\n      phone: '444-444-4444',\r\n      age: 19,\r\n    },\r\n    {\r\n      firstName: 'Jose',\r\n      lastName: 'Koe',\r\n      email: 'jose@gmail.com',\r\n      phone: '555-555-5555',\r\n      age: 23,\r\n    },\r\n  ];\r\n\r\n\r\n  \r\n\r\n  const youngpeople = [];  \r\n  \r\n  people.filter((person) => {\r\n    \r\n    if (person.age <= 25){\r\n        youngpeople.push ({\r\n            name: person.firstName + person.lastName,\r\n            email: person.email,\r\n        })\r\n    }\r\n  })\r\n\r\n  console.log(youngpeople);\r\n  \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n  // Challenge 2\r\nconst numbers = [2, -30, 50, 20, -12, -9, 7];\r\n\r\nconst positiveNumber = numbers.reduce((acc, curnum) => {\r\n    if (curnum > 0){\r\n        acc += curnum;\r\n    }\r\n    return acc;\r\n}, 0)\r\n\r\n\r\nconsole.log(positiveNumber);\r\n\r\n\r\n\r\n// Challenge 3\r\nconst words = ['coder', 'programmer', 'developer'];\r\n\r\n\r\nconst Capitailizedwords = words.map((word) => {\r\n    return word[0].toLocaleUpperCase() + word.slice(1);\r\n})\r\n\r\nconsole.log(Capitailizedwords);\r\n\r\n\r\n\r\n"
+        }
+    ]
+}

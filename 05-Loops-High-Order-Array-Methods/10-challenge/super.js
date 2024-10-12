@@ -75,8 +75,6 @@ const positiveNumber = numbers.reduce((acc, curnum) => {
 
 console.log(positiveNumber);
 
-
-
 // Challenge 3
 const words = ['coder', 'programmer', 'developer'];
 

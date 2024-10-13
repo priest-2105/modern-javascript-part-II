@@ -87,3 +87,5 @@ const Capitailizedwords = words.map((word) => {
 
 console.log(Capitailizedwords);
 
+
+

@@ -33,6 +33,7 @@ output = seconditem;
 output = seconditem.nextElementSibling;
 
 seconditem.nextElementSibling.style.color= 'green';
+seconditem.previousElementSibling.style.color= 'green';
 
 
 console.log(output);

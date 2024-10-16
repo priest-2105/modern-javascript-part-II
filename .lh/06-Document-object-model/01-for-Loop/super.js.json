@@ -1,0 +1,30 @@
+{
+    "sourceFile": "06-Document-object-model/01-for-Loop/super.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1728964413763,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1728964421850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+console.log(window.document);\r\n"
+                },
+                {
+                    "date": 1728964457044,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n console.log(window.document);\r\n+\r\n+\r\n+console.log(window.document);\r\n"
+                },
+                {
+                    "date": 1728964491138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n console.log(window.document);\r\n \r\n \r\n-console.log(window.document);\r\n+console.log(document.body.innerHTML);\r\n"
+                }
+            ],
+            "date": 1728964413763,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

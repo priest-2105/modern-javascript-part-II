@@ -1,20 +1,4 @@
-//  Quick and dirty 
-
-function createListItem(item){
-    const li = document.createElement('li');
-
-    li.innerHTML = `
-          ${item}
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-    `
-
-    document.querySelector('.items').appendChild(li);
-}
-
-
-// Clean % performant
+ 
 
 function createNewItem(item){
 
@@ -39,7 +23,13 @@ function createNewItem(item){
 }
 
 
+function createButton(classes){
+  
+}
+
+function createIcon(classes){
+  
+}
 
 
-createListItem('Eggs');
 createNewItem('Cheese');

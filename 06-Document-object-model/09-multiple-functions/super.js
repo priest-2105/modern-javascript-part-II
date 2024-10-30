@@ -3,15 +3,9 @@
 function createNewItem(item){
 
     const li = document.createElement('li');
-
     li.appendChild(document.createTextNode(item))
 
-    const button = document.createElement('button');
-
-    button.className = 'remove-item btn-link text-red';
-
-    const icon = document.createElement('i');
-    icon.className = 'fa-solid fa-xmark';
+    constButton = createButton('remove-item btn-link text-red');
 
     button.appendChild(icon);
     li.appendChild(button);
@@ -24,11 +18,19 @@ function createNewItem(item){
 
 
 function createButton(classes){
-  
+  const button = document.createElement('button');
+
+  button.className = classes;
+
 }
+
 
 function createIcon(classes){
   
+  const icon = document.createElement('i');
+  icon.className = 'fa-solid fa-xmark';
+
+
 }
 
 

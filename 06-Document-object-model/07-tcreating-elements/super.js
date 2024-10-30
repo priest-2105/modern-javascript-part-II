@@ -4,6 +4,8 @@ div.className = 'my-element';
 div.id = 'my-element';
 div.setAttribute('title', 'My Element');
 
-div.innerText = 'Hello world';
+const text = document.createTextNode('Hello world');
+div.appendChild(text);
 
-console.log(div);
+
+document.body.appendChild(div);

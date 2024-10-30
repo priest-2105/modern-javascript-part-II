@@ -32,7 +32,8 @@ function insertHTML(){
 }
 
 
-Insert Before item function insertElement(){
+// Insert Before item 
+function insertElement(){
   const filter = document.querySelector('.filter');
 
   const h1 = document.createElement('h1');
